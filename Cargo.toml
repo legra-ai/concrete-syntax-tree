@@ -1,0 +1,23 @@
+[package]
+name = "concrete-syntax-tree"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT OR Apache-2.0"
+description = "A small, lossless concrete syntax tree for parser tooling"
+repository = "https://github.com/legra-ai/concrete-syntax-tree"
+homepage = "https://github.com/legra-ai/concrete-syntax-tree"
+documentation = "https://docs.rs/concrete-syntax-tree"
+keywords = ["cst", "parser", "syntax-tree", "lossless", "language-tools"]
+categories = ["parser-implementations", "data-structures"]
+readme = "README.md"
+
+[lib]
+doctest = true
+
+[lints.rust]
+missing_docs = "deny"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
